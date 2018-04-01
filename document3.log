@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.8)  29 MAR 2018 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.9)  1 APR 2018 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,251 +566,260 @@ File: dns/dns-install5.png Graphic file (type png)
 Package pdftex.def Info: dns/dns-install5.png  used on input line 229.
 (pdftex.def)             Requested size: 207.0021pt x 141.33691pt.
  [18 <./dns/dns-install5.png>]
-<20180228_210547050_iOS.jpg, id=375, 4047.12pt x 3035.34pt>
+<20180228_210547050_iOS.jpg, id=376, 4047.12pt x 3035.34pt>
 File: 20180228_210547050_iOS.jpg Graphic file (type jpg)
 <use 20180228_210547050_iOS.jpg>
-Package pdftex.def Info: 20180228_210547050_iOS.jpg  used on input line 242.
+Package pdftex.def Info: 20180228_210547050_iOS.jpg  used on input line 243.
 (pdftex.def)             Requested size: 345.0pt x 258.71838pt.
-<"spec2 machine".jpeg, id=376, 3922.655pt x 1234.6125pt>
+<"spec2 machine".jpeg, id=377, 3922.655pt x 1234.6125pt>
 File: "spec2 machine".jpeg Graphic file (type jpg)
 <use "spec2 machine".jpeg>
-Package pdftex.def Info: "spec2 machine".jpeg  used on input line 246.
+Package pdftex.def Info: "spec2 machine".jpeg  used on input line 247.
 (pdftex.def)             Requested size: 345.0pt x 108.56711pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--248
+Underfull \hbox (badness 10000) in paragraph at lines 238--249
 
  []
 
 [19 <./20180228_210547050_iOS.jpg> <./spec2 machine.jpeg>]
-<"Screenshots-clone-server/Screenshot from 2018-03-10 13-33-36".png, id=381, 73
+<"Screenshots-clone-server/Screenshot from 2018-03-10 13-33-36".png, id=382, 73
 6.7525pt x 500.87125pt>
 File: "Screenshots-clone-server/Screenshot from 2018-03-10 13-33-36".png Graphi
 c file (type png)
 <use "Screenshots-clone-server/Screenshot from 2018-03-10 13-33-36".png>
 Package pdftex.def Info: "Screenshots-clone-server/Screenshot from 2018-03-10 1
-3-33-36".png  used on input line 260.
+3-33-36".png  used on input line 261.
 (pdftex.def)             Requested size: 345.0pt x 234.53824pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--262
+Underfull \hbox (badness 10000) in paragraph at lines 253--263
 
  []
 
 
-Overfull \hbox (3.96956pt too wide) in paragraph at lines 252--262
+Overfull \hbox (3.96956pt too wide) in paragraph at lines 253--263
 \T1/lmr/m/n/10 Go into su-pe-ruser mode with \T1/lmr/bx/n/10 su \T1/lmr/m/n/10 
 and use vi to get into the \T1/lmr/bx/n/10 /etc/apt/sources.list
  []
 
 [20 <./Screenshots-clone-server/Screenshot from 2018-03-10 13-33-36.png>]
-<"Screenshots-clone-server/Screenshot from 2018-03-10 13-36-36".png, id=387, 73
+<"Screenshots-clone-server/Screenshot from 2018-03-10 13-36-36".png, id=388, 73
 6.7525pt x 500.87125pt>
 File: "Screenshots-clone-server/Screenshot from 2018-03-10 13-36-36".png Graphi
 c file (type png)
 <use "Screenshots-clone-server/Screenshot from 2018-03-10 13-36-36".png>
 Package pdftex.def Info: "Screenshots-clone-server/Screenshot from 2018-03-10 1
-3-36-36".png  used on input line 268.
+3-36-36".png  used on input line 269.
 (pdftex.def)             Requested size: 345.0pt x 234.53824pt.
 
 [21 <./Screenshots-clone-server/Screenshot from 2018-03-10 13-36-36.png>]
-<"Screenshots-clone-server/Screenshot from 2018-03-10 13-39-10".png, id=393, 73
+<"Screenshots-clone-server/Screenshot from 2018-03-10 13-39-10".png, id=394, 73
 6.7525pt x 500.87125pt>
 File: "Screenshots-clone-server/Screenshot from 2018-03-10 13-39-10".png Graphi
 c file (type png)
 <use "Screenshots-clone-server/Screenshot from 2018-03-10 13-39-10".png>
 Package pdftex.def Info: "Screenshots-clone-server/Screenshot from 2018-03-10 1
-3-39-10".png  used on input line 274.
+3-39-10".png  used on input line 275.
 (pdftex.def)             Requested size: 345.0pt x 234.53824pt.
-<"Screenshots-clone-server/Screenshot from 2018-03-10 13-40-31".png, id=394, 55
+<"Screenshots-clone-server/Screenshot from 2018-03-10 13-40-31".png, id=395, 55
 2.56438pt x 132.495pt>
 File: "Screenshots-clone-server/Screenshot from 2018-03-10 13-40-31".png Graphi
 c file (type png)
 <use "Screenshots-clone-server/Screenshot from 2018-03-10 13-40-31".png>
 Package pdftex.def Info: "Screenshots-clone-server/Screenshot from 2018-03-10 1
-3-40-31".png  used on input line 282.
+3-40-31".png  used on input line 283.
 (pdftex.def)             Requested size: 345.0pt x 82.72424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--285
+Underfull \hbox (badness 10000) in paragraph at lines 272--286
 
  []
 
 [22 <./Screenshots-clone-server/Screenshot from 2018-03-10 13-39-10.png> <./Scr
 eenshots-clone-server/Screenshot from 2018-03-10 13-40-31.png>]
-<"Screenshots-clone-server/Screenshot from 2018-03-10 13-51-18".png, id=401, 54
+<"Screenshots-clone-server/Screenshot from 2018-03-10 13-51-18".png, id=402, 54
 4.28343pt x 188.95593pt>
 File: "Screenshots-clone-server/Screenshot from 2018-03-10 13-51-18".png Graphi
 c file (type png)
 <use "Screenshots-clone-server/Screenshot from 2018-03-10 13-51-18".png>
 Package pdftex.def Info: "Screenshots-clone-server/Screenshot from 2018-03-10 1
-3-51-18".png  used on input line 295.
+3-51-18".png  used on input line 296.
 (pdftex.def)             Requested size: 345.0pt x 119.76942pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--299
+Underfull \hbox (badness 10000) in paragraph at lines 291--300
 
  []
 
 [23 <./Screenshots-clone-server/Screenshot from 2018-03-10 13-51-18.png>]
-<"sysprep/3-23-2018 13-23-45".png, id=418, 485.56406pt x 350.05782pt>
+<"sysprep/3-23-2018 13-23-45".png, id=419, 485.56406pt x 350.05782pt>
 File: "sysprep/3-23-2018 13-23-45".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-23-45".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-23-45".png  used on input line 3
-19.
+20.
 (pdftex.def)             Requested size: 345.0pt x 248.71904pt.
 
 [24 <./sysprep/3-23-2018 13-23-45.png (PNG copy)>]
-<"sysprep/3-23-2018 13-21-27".png, id=424, 260.47313pt x 49.68562pt>
+<"sysprep/3-23-2018 13-21-27".png, id=425, 260.47313pt x 49.68562pt>
 File: "sysprep/3-23-2018 13-21-27".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-21-27".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-21-27".png  used on input line 3
-25.
+26.
 (pdftex.def)             Requested size: 172.5pt x 32.90482pt.
-<"sysprep/3-23-2018 13-48-20".png, id=425, 292.84406pt x 113.67468pt>
+<"sysprep/3-23-2018 13-48-20".png, id=426, 292.84406pt x 113.67468pt>
 File: "sysprep/3-23-2018 13-48-20".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-48-20".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-48-20".png  used on input line 3
-29.
+30.
 (pdftex.def)             Requested size: 172.5pt x 66.9634pt.
-<"sysprep/3-23-2018 13-25-37".png, id=426, 417.81094pt x 311.66437pt>
+<"sysprep/3-23-2018 13-25-37".png, id=427, 417.81094pt x 311.66437pt>
 File: "sysprep/3-23-2018 13-25-37".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-25-37".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-25-37".png  used on input line 3
-30.
+31.
 (pdftex.def)             Requested size: 172.5pt x 128.67726pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 329--331
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 330--332
 [][] [] 
  []
 
-<"sysprep/3-23-2018 13-26-37".png, id=427, 254.45062pt x 216.81pt>
+<"sysprep/3-23-2018 13-26-37".png, id=428, 254.45062pt x 216.81pt>
 File: "sysprep/3-23-2018 13-26-37".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-26-37".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-26-37".png  used on input line 3
-36.
+37.
 (pdftex.def)             Requested size: 172.5pt x 146.98885pt.
 [25 <./sysprep/3-23-2018 13-21-27.png (PNG copy)> <./sysprep/3-23-2018 13-48-20
 .png (PNG copy)> <./sysprep/3-23-2018 13-25-37.png (PNG copy)> <./sysprep/3-23-
 2018 13-26-37.png (PNG copy)>]
-<"sysprep/3-23-2018 13-29-07".png, id=432, 500.62032pt x 234.8775pt>
+<"sysprep/3-23-2018 13-29-07".png, id=433, 500.62032pt x 234.8775pt>
 File: "sysprep/3-23-2018 13-29-07".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-29-07".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-29-07".png  used on input line 3
-41.
+42.
 (pdftex.def)             Requested size: 345.0pt x 161.87212pt.
-<"sysprep/3-23-2018 13-34-39".png, id=433, 697.10437pt x 261.97874pt>
+<"sysprep/3-23-2018 13-34-39".png, id=434, 697.10437pt x 261.97874pt>
 File: "sysprep/3-23-2018 13-34-39".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-34-39".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-34-39".png  used on input line 3
-44.
+45.
 (pdftex.def)             Requested size: 345.0pt x 129.65388pt.
  [26 <./sysprep/3-23-2018 13-29-07.png (PNG copy)> <./sysprep/3-23-2018 13-34-3
 9.png (PNG copy)>]
-<"sysprep/3-23-2018 13-29-44".png, id=438, 506.6428pt x 258.9675pt>
+<"sysprep/3-23-2018 13-29-44".png, id=439, 506.6428pt x 258.9675pt>
 File: "sysprep/3-23-2018 13-29-44".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-29-44".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-29-44".png  used on input line 3
-48.
+49.
 (pdftex.def)             Requested size: 345.0pt x 176.34845pt.
-<"sysprep/3-23-2018 13-35-03".png, id=439, 697.8572pt x 261.97874pt>
+<"sysprep/3-23-2018 13-35-03".png, id=440, 697.8572pt x 261.97874pt>
 File: "sysprep/3-23-2018 13-35-03".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-35-03".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-35-03".png  used on input line 3
-51.
+52.
 (pdftex.def)             Requested size: 345.0pt x 129.51398pt.
 
-Underfull \hbox (badness 3281) in paragraph at lines 348--352
+Underfull \hbox (badness 3281) in paragraph at lines 349--353
 \T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 Set-ting the \T1/lmr/bx/n/10 Com-put-er-Na
 me \T1/lmr/m/n/10 to \T1/lmr/bx/n/10 * \T1/lmr/m/n/10 will au-to-mat-i-cally as
 -sign
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 348--352
+Underfull \hbox (badness 3209) in paragraph at lines 349--353
 \T1/lmr/m/n/10 a unique iden-ti-fier to each sys-tem when you run sysprep later
  on.
  []
 
 [27 <./sysprep/3-23-2018 13-29-44.png (PNG copy)> <./sysprep/3-23-2018 13-35-03
 .png (PNG copy)>]
-<"sysprep/3-23-2018 13-32-46".png, id=444, 463.7325pt x 259.7203pt>
+<"sysprep/3-23-2018 13-32-46".png, id=445, 463.7325pt x 259.7203pt>
 File: "sysprep/3-23-2018 13-32-46".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-32-46".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-32-46".png  used on input line 3
-58.
+59.
 (pdftex.def)             Requested size: 345.0pt x 193.22435pt.
-<"sysprep/3-23-2018 13-36-14".png, id=445, 308.65312pt x 159.59625pt>
+<"sysprep/3-23-2018 13-36-14".png, id=446, 308.65312pt x 159.59625pt>
 File: "sysprep/3-23-2018 13-36-14".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-36-14".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-36-14".png  used on input line 3
-64.
+65.
 (pdftex.def)             Requested size: 172.5pt x 89.19794pt.
-<"sysprep/3-23-2018 13-36-26".png, id=446, 335.75438pt x 186.6975pt>
+<"sysprep/3-23-2018 13-36-26".png, id=447, 335.75438pt x 186.6975pt>
 File: "sysprep/3-23-2018 13-36-26".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-36-26".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-36-26".png  used on input line 3
-65.
+66.
 (pdftex.def)             Requested size: 172.5pt x 95.9181pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 364--366
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 365--367
 [][] [] 
  []
 
-<"sysprep/3-23-2018 13-35-25".png, id=447, 699.36281pt x 261.97874pt>
+<"sysprep/3-23-2018 13-35-25".png, id=448, 699.36281pt x 261.97874pt>
 File: "sysprep/3-23-2018 13-35-25".png Graphic file (type png)
 <use "sysprep/3-23-2018 13-35-25".png>
 Package pdftex.def Info: "sysprep/3-23-2018 13-35-25".png  used on input line 3
-69.
+70.
 (pdftex.def)             Requested size: 345.0pt x 129.23816pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <./sysprep/3-23-2018 13-32-46.png (PNG copy)> <./sysprep/3-23-2018 13-36-14
 .png (PNG copy)> <./sysprep/3-23-2018 13-36-26.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--376
 
  []
 
 [29 <./sysprep/3-23-2018 13-35-25.png (PNG copy)>]
-<BDC/1.png, id=458, 258.9675pt x 348.55219pt>
+<BDC/1.png, id=459, 258.9675pt x 348.55219pt>
 File: BDC/1.png Graphic file (type png)
 <use BDC/1.png>
-Package pdftex.def Info: BDC/1.png  used on input line 387.
+Package pdftex.def Info: BDC/1.png  used on input line 406.
 (pdftex.def)             Requested size: 120.7545pt x 192.50204pt.
- [30 <./BDC/1.png>]
-<BDC/1b.png, id=465, 583.42969pt x 426.84468pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30]
+<BDC/1b.png, id=476, 583.42969pt x 426.84468pt>
 File: BDC/1b.png Graphic file (type png)
 <use BDC/1b.png>
-Package pdftex.def Info: BDC/1b.png  used on input line 393.
+Package pdftex.def Info: BDC/1b.png  used on input line 412.
 (pdftex.def)             Requested size: 172.49306pt x 137.50491pt.
-<BDC/2.png, id=466, 582.67688pt x 428.35031pt>
+<BDC/2.png, id=477, 582.67688pt x 428.35031pt>
 File: BDC/2.png Graphic file (type png)
 <use BDC/2.png>
-Package pdftex.def Info: BDC/2.png  used on input line 399.
+Package pdftex.def Info: BDC/2.png  used on input line 418.
 (pdftex.def)             Requested size: 172.49277pt x 137.49974pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
- [31 <./BDC/1b.png> <./BDC/2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./BDC/1.png> <./BDC/1b.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 428.
+ [32 <./BDC/2.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
  (./document3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 428.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 428.
 Package rerunfilecheck Info: File `document3.out' has not changed.
 (rerunfilecheck)             Checksum: AC7142D0A99ACA8C18E5AC43B1480B04;2233.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
  ) 
 Here is how much of TeX's memory you used:
- 6190 strings out of 492980
- 94240 string characters out of 6136208
+ 6206 strings out of 492980
+ 94352 string characters out of 6136223
  164174 words of memory out of 5000000
  9532 multiletter control sequences out of 15000+600000
  36407 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,28p,708b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,7n,28p,708b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2017/tex
 mf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2017/texmf-dist/fonts/type
 1/public/lm/lmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.
 pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on document3.pdf (32 pages, 20812955 bytes).
+Output written on document3.pdf (33 pages, 20815039 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 426 compressed objects within 5 object streams
+ 136 named destinations out of 1000 (max. 500000)
  572 words of extra memory for PDF output out of 10000 (max. 10000000)
 

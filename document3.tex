@@ -230,7 +230,8 @@ To set up DNS follow these steps:
 \end{figure}
 \item Here you can set up multiple domain zones. However if this is your initial domain controller setup you will see one domain available. You will see the domain you have previously created during the Active Directory setup.
 \item When you click a zone you will be able to see all the hosts in that particular zone.
-\item To add a host make sure your inside the domain folder and right click the blank area. Click the \textbf{New A or AAAA host}  
+\item To add a host make sure you are inside the domain folder and right click the blank area. Click the \textbf{New A or AAAA host}
+\item Make sure you have the \textbf{Create associated pointer} checked off to create the reverse lookup for that particular host.
 \end{enumerate}
 \newpage
 \section{End Device Specifications}
@@ -303,7 +304,7 @@ Choose: \textbf{All Select all the clients}
 	\item Now in server
 	\item Now choose a image name
 	\item sda
-	\item Skip checking
+	\item Skip checking (optional)
 	\item -scs
 	\item -p choose
 	\item 1000000
@@ -380,6 +381,24 @@ Next on the client machine run the CLI as an Administrator, doing so will put yo
 Once the computer has shutdown repeat the steps in \hyperref[sec:12.4]{12.4} using a different image name in step 5 as to not overwrite your previous image.
 \newpage
 \section{Multicast Cloning}
+Multicast cloning gives you the ability to deploy an image from the server machine to all connected clients on the network. Using multicast cloning will cut down bandwidth usage on the network by sending out one packet that will replicate itself to clients on the specified list of MAC addresses.
+\newline
+Run the \textbf{dcs} command on the clone server and follow these steps:
+\begin{enumerate}
+	\item Clonezilla-start
+	\item Beginner mode
+	\item Restore-disk
+	\item Skip checking (optional)
+	\item -p choose
+	\item Choose the image
+	\item Select the disks you want to clone
+	\item Multicast Multicast Restore
+	\item Clients+time-to-wait
+	\item Enter in how many clients you want to clone to
+\end{enumerate}
+After you have completed these steps now Network boot all the clients you want to clone.
+\newline
+\textbf{Note:} To network boot press the F12 key, this could be different depending on the machine hardware.
 \section{Backup Domain Controller}
 Once you have installed Windows Server 2012 on a backup machine, set a static IP address and DNS of the Primary Domain controller. 
 \begin{figure}[h]
@@ -398,5 +417,12 @@ You have to set it to \textbf{Add to existing domain}. Then you enter the domain
 	\centering
 	\includegraphics[width=.5\linewidth, height=.25\textheight]{BDC/2}
 \end{figure}
-Enter the Administrators credentials in order for you to add the machine to the domain.
+\newline
+Enter the Administrators credentials from the PDC in order for you to add the machine to the domain.
+\begin{enumerate}
+	\item In \textbf{Domain Controller Options} leave settings at their default except the \textbf{DSRM} password for recovery.
+	\item Click next on the \textbf{DNS Options} unless you want to change any options for DNS.
+	\item \textbf{Additional Options} make sure you replicate from the appropriate domain controller in your network.
+	\item Click next until you are at the \textbf{Prerequisites Check} page, once all prerequisites have been met click on install.
+\end{enumerate}
 \end{document}
