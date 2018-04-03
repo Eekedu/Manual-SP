@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.9)  1 APR 2018 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.8)  3 APR 2018 08:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -800,13 +800,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
  (./document3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 428.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 428.
-Package rerunfilecheck Info: File `document3.out' has not changed.
-(rerunfilecheck)             Checksum: AC7142D0A99ACA8C18E5AC43B1480B04;2233.
+
+
+Package rerunfilecheck Warning: File `document3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document3.out':
+(rerunfilecheck)             Before: C73C4A9AF1E51354935F0C632C6CD864;2275
+(rerunfilecheck)             After:  AC7142D0A99ACA8C18E5AC43B1480B04;2233.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
  ) 
 Here is how much of TeX's memory you used:
  6206 strings out of 492980
- 94352 string characters out of 6136223
+ 94352 string characters out of 6136208
  164174 words of memory out of 5000000
  9532 multiletter control sequences out of 15000+600000
  36407 words of font info for 32 fonts, out of 8000000 for 9000
