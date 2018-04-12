@@ -426,4 +426,29 @@ Enter the Administrators credentials from the PDC in order for you to add the ma
 	\item \textbf{Additional Options} make sure you replicate from the appropriate domain controller in your network.
 	\item Click next until you are at the \textbf{Prerequisites Check} page, once all prerequisites have been met click on install.
 \end{enumerate}
+\section{Setting up Syslog}
+Syslog receives logs from remotely connected devices in a network. With these logs you are able to troubleshoot and observe security information. These logs allow administrators to maintain the network properly by pinpointing flaws within the network.
+\subsection{}
+First you will have to install the Syslog server, we used Kiwi found at \href{https://www.kiwisyslog.com/free-tools/kiwi-free-syslog-server}{This website}
+After downloading and installing Kiwi server \textbf{as a service}, on one your machines run the command \textbf{logging host (IP address of the server machine) eg. logging host 172.16.6.10} onto each of your routers. \textbf{Note:} Kiwi Free version only allows up to 5 connected devices.
+\newpage
+\section{Setting up NTP}
+Network Time protocol (NTP) is used to sync your internal network time to a single time server from the internet. The Canadian time servers are: 
+\begin{enumerate}
+	\item server 0.ca.pool.ntp.org
+	\item server 1.ca.pool.ntp.org
+	\item server 2.ca.pool.ntp.org
+	\item server 3.ca.pool.ntp.org
+\end{enumerate}
+To setup the NTP connections enter in the following command on your backbone routers \textbf{ntp server (IP address/domain name) eg. ntp server 0.ca.pool.ntp.org}
+\section{ACL's}
+Access control lists (ACLs) allow an administrator to control the flow of traffic within the network. With ACLs you can control the direction the traffic flows and restrict access by protocol, IP address, network. There are two types of ACLs; standard and extended. Standard ACLs are located near the destination while Extended ACL's are located near the source. An Extended ACL is made up of one or more access control entries (ACEs)
+Standard ACL example:
+\begin{enumerate}
+	\item ip access-list standard (1-100 or a NAME)
+	\item permit (IP address)
+	\item permit (network address)
+	\item int g0/0
+	\item ip access-group (1-100 or a NAME) (IN or OUT)
+\end{enumerate}
 \end{document}

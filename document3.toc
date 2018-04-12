@@ -40,3 +40,7 @@
 \contentsline {subsection}{\numberline {13.2}}{25}{subsection.13.2}
 \contentsline {section}{\numberline {14}Multicast Cloning}{30}{section.14}
 \contentsline {section}{\numberline {15}Backup Domain Controller}{30}{section.15}
+\contentsline {section}{\numberline {16}Setting up Syslog}{32}{section.16}
+\contentsline {subsection}{\numberline {16.1}}{32}{subsection.16.1}
+\contentsline {section}{\numberline {17}Setting up NTP}{33}{section.17}
+\contentsline {section}{\numberline {18}ACL's}{33}{section.18}
