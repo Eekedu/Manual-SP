@@ -26,9 +26,9 @@
 	\tableofcontents
 	\newpage
 \section{Introduction}
-	Our company was approached by an organization to come up with a network solution that would efficiently suit their business requirements. They require implementation of multiple VLAN’s on the network to provide redundant reliable service to all their employees and clients. The network we will be implementing should consist of the following equipment: 6 routers, 4 switches, one primary domain controller, one backup domain controller, several windows client machines spread across the two subnets, at least three windows client machines set up in their own VLAN (for audio and video streaming), a Linux server running Clonezilla software, and two printers set up in the printer pool.  
+	Our company was approached by an organization to come up with a network solution that would efficiently suit their business requirements. They require implementation of multiple VLANs on the network to provide redundant reliable service to all their employees and clients. The network we will be implementing should consist of the following equipment: 6 routers, 4 switches, one primary domain controller, one backup domain controller, several windows client machines spread across the two subnets, at least three windows client machines set up in their own VLAN (for audio and video streaming), a Linux server running Clonezilla software, and two printers set up in the printer pool.  
 	\newline\newline
-	The purpose of multiple subnets is to make the network run a lot smoother, as well as split up the two VLAN's: staff and student. The purpose of setting up the VLAN’s is so that remote end devices can still access all of the network resources they are required to access.\newline
+	The purpose of multiple subnets is to make the network run a lot smoother, as well as split up the two VLANs: staff and student. The purpose of setting up the VLAN’s is so that remote end devices can still access all of the network resources they are required to access.\newline
 	\newline\newline
 	\newpage
 \section{Network Sketch}
@@ -442,13 +442,26 @@ Network Time protocol (NTP) is used to sync your internal network time to a sing
 \end{enumerate}
 To setup the NTP connections enter in the following command on your backbone routers \textbf{ntp server (IP address/domain name) eg. ntp server 0.ca.pool.ntp.org}
 \section{ACL's}
-Access control lists (ACLs) allow an administrator to control the flow of traffic within the network. With ACLs you can control the direction the traffic flows and restrict access by protocol, IP address, network. There are two types of ACLs; standard and extended. Standard ACLs are located near the destination while Extended ACL's are located near the source. An Extended ACL is made up of one or more access control entries (ACEs)
-Standard ACL example:
+Access control lists (ACLs) allow an administrator to control the flow of traffic within the network. With ACLs you can control the direction the traffic flows and restrict access by protocol, IP address, network. There are two types of ACLs; standard and extended. Standard ACLs are located near the destination while Extended ACL's are located near the source. An Extended ACL is made up of one or more access control entries (ACEs). \textbf{All ACL have an explicit deny all applied to the end}
+
+Standard ACL syntax:
 \begin{enumerate}
-	\item ip access-list standard (1-100 or a NAME)
+	\item ip access-list standard (1-99 or a NAME)
 	\item permit (IP address)
 	\item permit (network address)
 	\item int g0/0
 	\item ip access-group (1-100 or a NAME) (IN or OUT)
 \end{enumerate}
+
+Extended ACL syntax:
+\begin{enumerate}
+	\item ip access-list extended (100-199,2000-2699 or a NAME)
+	\item permit (protocol) (source) (destination) eq (port or name)
+	\item int g0/0
+	\item ip access-group (100-199, 2000-2699) (IN or OUT)
+\end{enumerate}
+\section{VLANS}
+VLAN is a Virtual LAN that lets administrator restrict access to different areas of a network. Using VLANs administrator are able to enforce security policies, reduce the broadcast domains and traffic. VLANS are based on logical connection instead of physical connections.
+\section{Streaming Machines}
+
 \end{document}

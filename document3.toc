@@ -44,3 +44,5 @@
 \contentsline {subsection}{\numberline {16.1}}{32}{subsection.16.1}
 \contentsline {section}{\numberline {17}Setting up NTP}{33}{section.17}
 \contentsline {section}{\numberline {18}ACL's}{33}{section.18}
+\contentsline {section}{\numberline {19}VLANS}{34}{section.19}
+\contentsline {section}{\numberline {20}Streaming Machines}{34}{section.20}
