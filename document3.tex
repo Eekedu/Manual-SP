@@ -34,7 +34,6 @@
 \section{Network Sketch}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{2}
-		\caption{Rough network sketch}
 \end{figure}
 \subsection{}
 	The network sketch will give you a rough idea of how you want the network to work and function. The sketch will show you how the topology would look before implementing it in a virtual environment. During the process, you should consider how much equipment will be needed and how much equipment you have access to.
@@ -42,15 +41,13 @@
 \section{Network Map}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{3}
-		\caption{Network Map}
 \end{figure}
 \subsection{}
-	The network map is the implementation of the network sketch in a virtual environment such as Cisco' packet tracer. In this environment you are able to assign IP addresses, routing protocols (OSPF, RIP, EIGRP, ISIS) and connect devices.
+	The network map is the implementation of the network sketch in a virtual environment such as Cisco Packet Tracer. In this environment you are able to assign IP addresses, routing protocols (OSPF, RIP, EIGRP, ISIS) and connect devices. This program also allows you to see the flow of packets throughout the network.
 	\newpage
 \section{IP Addressing Scheme}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{4}
-		\caption{IP Addressing Scheme}
 \end{figure}
 \subsection{}
 	The IP addressing scheme is used to keep track of the addresses in your network. Without IP addresses devices would not have connectivity. There are two types of IP addresses: IPv4 (eg. 192.168.1.0/24) and IPv6 (eg. 2001:db8:acad::1/64).
@@ -58,7 +55,6 @@
 \section{Preparing The Equipment}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{5}
-		\caption{Preparing The Equipment}
 \end{figure}
 \subsection{}
 	Before working on your equipment be sure to erase the startup configuration (erase startup-config) followed by the reload command (reload)
@@ -66,77 +62,70 @@
 \section{Initializing the Devices}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{"staff passwords"}
-		\caption{}
 \end{figure}
 \subsection{}
 	Before you begin setting up and configuring a router or switch you want to set the hostnames. You set these hostnames so you can identify which device your connected to. 
 \begin{figure}[h]
-		\includegraphics[width=1\linewidth]{hostname}
-		\caption{}
+		\centering
+		\includegraphics[width=0.5\linewidth]{hostname}
 \end{figure}
 \subsection{}
 	When you first begin setting up a router or switch you want to make sure that the switch is password protected. By doing this you will not allow anyone access without a password. Using the "service password-encryption" command will take that password and encrypt it so that it will not be shown in plain text.
 \begin{figure}[h]
-		\includegraphics[width=1\linewidth]{"staff password encryption"}
-		\caption{}
+	\centering
+		\includegraphics[width=0.6\linewidth]{"staff password encryption"}
 \end{figure}
 
 \subsection{}
 	Telnet is a simple, text-based network protocol that is used for accessing remote networks over TCP/IP networks. Telnet was created in 1969 and has been replaced by SSH because Telnet poses security issues.
 \begin{figure}[h]
-		\includegraphics[width=1\linewidth]{"telnet access"}
-		\caption{}
+		\centering
+		\includegraphics[width=0.5\linewidth]{"telnet access"}
 \end{figure}
+\newpage
 \subsection{}
 	The banner Message of The Day(MOTD) is a message that is presented to someone who is access the router or the switch. Most network administrators use it to display legal notices regarding access to the device.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{motd}
-	\caption{}
 \end{figure}
 \subsection{}
 The default route is a setting on a device that defines the packet forwarding rule to use when no specific route can be determined for a given Internet Protocol(IP) destination address.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{"default route"}
-	\caption{}
 \end{figure}
 \newpage
 \section{Configure Device Ports}
 \subsection{}
 An Internet Protocol (IP) Address is a unique identifier that is assign to specific ports to allow communication between devices on a network. An IP address provides an identity to a networked device. There are 2 types of IP addresses IPv4 and IPv6, IPv6 is the successor to IPv4 and is less likely to run out of IP addresses. In order to use IPv6 addresses you have to enable unicast routing.
 \begin{figure}[h]
-	\includegraphics[width=1\linewidth]{"configure ip address"}
-	\caption{}
+	\centering
+	\includegraphics[width=0.9\linewidth]{"configure ip address"}
 \end{figure}
 \begin{figure}[h]
-	\includegraphics[width=1\linewidth]{"enable ipv6 core1"}
-	\caption{}
+	\centering
+	\includegraphics[width=0.5\linewidth]{"enable ipv6 core1"}
 \end{figure}
-\newpage
 \subsection{}
 When a network administrator configures a description on a port it gives that interface a label of what the ports purpose is and what it is connected to.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{description}
-	\caption{}
 \end{figure}
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{"show description"}
-	\caption{}
 \end{figure}
 \subsection{}
 The clock rate is important for routers because it defines which side of the WAN link is the DCE and what side is DTE. The clock rate sets the speed at which data is transferred over the network. If your clock rate is low then your bandwidth will be low.
 \begin{figure}[h]
-	\includegraphics[width=1\linewidth]{"clock rate"}
-	\caption{}
+	\centering
+	\includegraphics[width=0.5\linewidth]{"clock rate"}
 \end{figure}
 \newpage
 \subsection{}
 To activate an interface you can specify which interface or a range of interfaces that you want to activate. If an interface is not activated then it will not be able to transfer data through it till the "no shutdown" command has been issued to that interface.
 \begin{figure}[h]
-	\includegraphics[width=1\linewidth]{"activate interfaces"}
-	\caption{}
-	\label{fig:activate-interfaces}
+	\centering
+	\includegraphics[width=0.5\linewidth]{"activate interfaces"}
 \end{figure}
-\newpage
 \section{Test and Troubleshoot Network Connectivity}
 \subsection{}
 Troubleshooting commands:
@@ -462,6 +451,5 @@ Extended ACL syntax:
 \end{enumerate}
 \section{VLANS}
 VLAN is a Virtual LAN that lets administrator restrict access to different areas of a network. Using VLANs administrator are able to enforce security policies, reduce the broadcast domains and traffic. VLANS are based on logical connection instead of physical connections.
-\section{Streaming Machines}
 
 \end{document}
