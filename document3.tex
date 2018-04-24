@@ -13,8 +13,12 @@
 }
 \begin{document}
 \begin{center}
-	\underline{\LARGE IT Solutions Network Setting Up a Network }
+	\underline{\LARGE IT Solutions }
+\end{center}
+\begin{center}
+	\underline{ \LARGE Setting Up a Network }
 \begin{figure}[h]
+		\centering
 		\includegraphics[width=1\textwidth]{1}
 		\newline
 		{Brett W, Sonja E, Allen P, Sydney K}
@@ -26,7 +30,7 @@
 	\tableofcontents
 	\newpage
 \section{Introduction}
-	Our company was approached by an organization to come up with a network solution that would efficiently suit their business requirements. They require implementation of multiple VLANs on the network to provide redundant reliable service to all their employees and clients. The network we will be implementing should consist of the following equipment: 6 routers, 4 switches, one primary domain controller, one backup domain controller, several windows client machines spread across the two subnets, at least three windows client machines set up in their own VLAN (for audio and video streaming), a Linux server running Clonezilla software, and two printers set up in the printer pool.  
+	Our company was approached by SIIT to come up with a network solution that would efficiently suit their business requirements. They require implementation of multiple VLANs on the network to provide redundant reliable service to all their employees and clients. The network we will be implementing should consist of the following equipment: 6 routers, 4 switches, one primary domain controller, one backup domain controller, several windows client machines spread across the two subnets, at least three windows client machines set up in their own VLAN (for audio and video streaming), a Linux server running Clonezilla software, and two printers set up in the printer pool.  
 	\newline\newline
 	The purpose of multiple subnets is to make the network run a lot smoother, as well as split up the two VLANs: staff and student. The purpose of setting up the VLANs is so that remote end devices can still access all of the network resources they are required to access.\newline
 	\newline\newline
@@ -35,29 +39,25 @@
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{2}
 \end{figure}
-\subsection{}
 	The network sketch will give you a rough idea of how you want the network to work and function. The sketch will show you how the topology would look before implementing it in a virtual environment. During the process, you should consider how much equipment will be needed and how much equipment you have access to.
 	\newpage
 \section{Network Map}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{3}
 \end{figure}
-\subsection{}
 	The network map is the implementation of the network sketch in a virtual environment such as Cisco Packet Tracer. In this environment you are able to assign IP addresses, routing protocols (OSPF, RIP, EIGRP, ISIS) and connect devices. This program also allows you to see the flow of packets throughout the network.
 	\newpage
 \section{IP Addressing Scheme}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{4}
 \end{figure}
-\subsection{}
 	The IP addressing scheme is used to keep track of the addresses in your network. Without IP addresses devices would not have connectivity. There are two types of IP addresses: IPv4 (eg. 192.168.1.0/24) and IPv6 (eg. 2001:db8:acad::1/64).
 	\newpage
 \section{Preparing The Equipment}
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{5}
 \end{figure}
-\subsection{}
-	Before working on your equipment be sure to erase the startup configuration (erase startup-config) followed by the reload command (reload)
+	Before working on your equipment be sure to erase the startup configuration (erase startup-config) followed by the reload command (reload). This is done to restore the devices to default factory settings.
 	\newpage
 \section{Initializing the Devices}
 \begin{figure}[h]
@@ -96,7 +96,7 @@ The default route is a setting on a device that defines the packet forwarding ru
 \newpage
 \section{Configure Device Ports}
 \subsection{}
-An Internet Protocol (IP) Address is a unique identifier that is assign to specific ports to allow communication between devices on a network. An IP address provides an identity to a networked device. There are 2 types of IP addresses IPv4 and IPv6, IPv6 is the successor to IPv4 and is less likely to run out of IP addresses. In order to use IPv6 addresses you have to enable unicast routing.
+An Internet Protocol (IP) address is a unique identifier that is assign to specific ports to allow communication between devices on a network. An IP address provides an identity to a networked device. There are 2 types of IP addresses IPv4 and IPv6, IPv6 is the successor to IPv4 and is less likely to run out of IP addresses. In order to use IPv6 addresses you have to enable unicast routing.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"configure ip address"}
@@ -106,7 +106,7 @@ An Internet Protocol (IP) Address is a unique identifier that is assign to speci
 	\includegraphics[width=0.5\linewidth]{"enable ipv6 core1"}
 \end{figure}
 \subsection{}
-When a network administrator configures a description on a port it gives that interface a label of what the ports purpose is and what it is connected to.
+When a network administrator configures a description on a port it gives that interface a label of what the interfaces purpose is and what it is connected to.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{description}
 \end{figure}
@@ -121,7 +121,7 @@ The clock rate is important for routers because it defines which side of the WAN
 \end{figure}
 \newpage
 \subsection{}
-To activate an interface you can specify which interface or a range of interfaces that you want to activate. If an interface is not activated then it will not be able to transfer data through it till the "no shutdown" command has been issued to that interface.
+To activate an interface you can specify which interface or ranges of interfaces that you want to activate. If an interface is not activated then it will not be able to transfer data through it until the \textbf{no shutdown} command has been issued.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{"activate interfaces"}
@@ -149,9 +149,8 @@ Troubleshooting commands:
 9: show ip(v6) protocols (Shows which routing protocol, router-id, and attached networks)
 \newpage
 \section{Setting up DHCP}
-\subsection{}
-Dynamic Host Configuration Protocol(DHCP) is a network management protocol used on TCP/IP networks where a DHCP server dynamically assigns an IP address and other network configuration parameters to each device on a network, so they can communicate with other IP networks.
-\subsection{}
+Dynamic Host Configuration Protocol(DHCP) is a network management protocol used on TCP/IP networks where a DHCP server dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks.
+\subsection{Installing DHCP}
 To install DHCP run the following command.
 \begin{figure}[h]
 	\centering
@@ -165,7 +164,7 @@ Change the directory to /etc/dhcp
 \end{figure}
 \newpage
 \subsection{}
-Nano into the file: dhcpd.conf. Here you want to set up the subnets so that the hosts connected to those specific networks get an ip address in those ranges.
+Using a text editor such as vi, vim, or nano you will need to edit the file: dhcpd.conf. Here you want to set up the subnets so that the hosts connected to those specific networks get an ip address in those ranges. For each zones in your network you'll need to specify the range of IP addresses, the subnet mask, default gateway and DNS servers.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{dhcp-config2}
@@ -177,7 +176,7 @@ Nano into the file: dhcpd.conf. Here you want to set up the subnets so that the 
 \end{figure}
 \newpage
 \subsection{}
-Restarts the dhcp server to apply any changes that were made
+Running the following command restarts the DHCP server with the new settings in the configuration file.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{dhcp-config4}
@@ -224,7 +223,7 @@ To set up DNS follow these steps:
 \end{enumerate}
 \newpage
 \section{End Device Specifications}
-Recording the specifications of host machines gives an idea of compatibility for company software and resources it can handle.
+Recording the specifications of host machines gives an idea of compatibility for the companies software and resources it requires.
 \newline \newline
 Shown below is one of the machines we have documented.
 \begin{figure}[h]
