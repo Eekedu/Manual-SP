@@ -4,39 +4,32 @@
 \contentsline {section}{\numberline {4}IP Addressing Scheme}{6}{section.4}
 \contentsline {section}{\numberline {5}Preparing The Equipment}{7}{section.5}
 \contentsline {section}{\numberline {6}Initializing the Devices}{8}{section.6}
-\contentsline {subsection}{\numberline {6.1}}{8}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}}{8}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}}{8}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}}{9}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}}{9}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.1}Hostnames}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Password Encryption}{8}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Telnet}{8}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Message Of The Day}{9}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Default Route}{9}{subsection.6.5}
 \contentsline {section}{\numberline {7}Configure Device Ports}{10}{section.7}
-\contentsline {subsection}{\numberline {7.1}}{10}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}}{10}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}}{10}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}}{11}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.1}Labelling Ports}{10}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Clock Rate}{11}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Interfaces}{11}{subsection.7.3}
 \contentsline {section}{\numberline {8}Test and Troubleshoot Network Connectivity}{11}{section.8}
-\contentsline {subsection}{\numberline {8.1}}{11}{subsection.8.1}
 \contentsline {section}{\numberline {9}Setting up DHCP}{12}{section.9}
 \contentsline {subsection}{\numberline {9.1}Installing DHCP}{12}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}}{12}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}}{13}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}}{15}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.2}Configuring DHCP}{12}{subsection.9.2}
 \contentsline {section}{\numberline {10}Setting up the PDC and DNS}{15}{section.10}
-\contentsline {subsection}{\numberline {10.1}}{15}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}}{16}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.1}Primary Domain Controller}{15}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Domain Name System}{16}{subsection.10.2}
 \contentsline {section}{\numberline {11}End Device Specifications}{17}{section.11}
 \contentsline {section}{\numberline {12}Creating the Clone Server}{18}{section.12}
-\contentsline {subsection}{\numberline {12.1}}{18}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}}{19}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}}{21}{subsection.12.3}
-\contentsline {subsection}{\numberline {12.4}}{21}{subsection.12.4}
+\contentsline {subsection}{\numberline {12.1}Installing Disk-less Remote Boot For Linux}{18}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Configuring DRBL}{19}{subsection.12.2}
 \contentsline {section}{\numberline {13}Preparing a system for Sysprep}{22}{section.13}
-\contentsline {subsection}{\numberline {13.1}}{22}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}}{23}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.1}Configuring The Answer File}{23}{subsection.13.1}
 \contentsline {section}{\numberline {14}Multicast Cloning}{28}{section.14}
 \contentsline {section}{\numberline {15}Backup Domain Controller}{28}{section.15}
 \contentsline {section}{\numberline {16}Setting up Syslog}{30}{section.16}
-\contentsline {subsection}{\numberline {16.1}}{30}{subsection.16.1}
-\contentsline {section}{\numberline {17}Setting up NTP}{31}{section.17}
-\contentsline {section}{\numberline {18}ACL's}{31}{section.18}
-\contentsline {section}{\numberline {19}VLANS}{32}{section.19}
+\contentsline {subsection}{\numberline {16.1}Installing A Syslog Server}{30}{subsection.16.1}
+\contentsline {section}{\numberline {17}Network Time Protocol}{31}{section.17}
+\contentsline {section}{\numberline {18}Access Control Lists}{31}{section.18}
+\contentsline {section}{\numberline {19}Virtual Local Area Network}{32}{section.19}

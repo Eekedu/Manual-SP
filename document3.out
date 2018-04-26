@@ -4,39 +4,32 @@
 \BOOKMARK [1][-]{section.4}{IP Addressing Scheme}{}% 4
 \BOOKMARK [1][-]{section.5}{Preparing The Equipment}{}% 5
 \BOOKMARK [1][-]{section.6}{Initializing the Devices}{}% 6
-\BOOKMARK [2][-]{subsection.6.1}{}{section.6}% 7
-\BOOKMARK [2][-]{subsection.6.2}{}{section.6}% 8
-\BOOKMARK [2][-]{subsection.6.3}{}{section.6}% 9
-\BOOKMARK [2][-]{subsection.6.4}{}{section.6}% 10
-\BOOKMARK [2][-]{subsection.6.5}{}{section.6}% 11
+\BOOKMARK [2][-]{subsection.6.1}{Hostnames}{section.6}% 7
+\BOOKMARK [2][-]{subsection.6.2}{Password Encryption}{section.6}% 8
+\BOOKMARK [2][-]{subsection.6.3}{Telnet}{section.6}% 9
+\BOOKMARK [2][-]{subsection.6.4}{Message Of The Day}{section.6}% 10
+\BOOKMARK [2][-]{subsection.6.5}{Default Route}{section.6}% 11
 \BOOKMARK [1][-]{section.7}{Configure Device Ports}{}% 12
-\BOOKMARK [2][-]{subsection.7.1}{}{section.7}% 13
-\BOOKMARK [2][-]{subsection.7.2}{}{section.7}% 14
-\BOOKMARK [2][-]{subsection.7.3}{}{section.7}% 15
-\BOOKMARK [2][-]{subsection.7.4}{}{section.7}% 16
-\BOOKMARK [1][-]{section.8}{Test and Troubleshoot Network Connectivity}{}% 17
-\BOOKMARK [2][-]{subsection.8.1}{}{section.8}% 18
-\BOOKMARK [1][-]{section.9}{Setting up DHCP}{}% 19
-\BOOKMARK [2][-]{subsection.9.1}{Installing DHCP}{section.9}% 20
-\BOOKMARK [2][-]{subsection.9.2}{}{section.9}% 21
-\BOOKMARK [2][-]{subsection.9.3}{}{section.9}% 22
-\BOOKMARK [2][-]{subsection.9.4}{}{section.9}% 23
-\BOOKMARK [1][-]{section.10}{Setting up the PDC and DNS}{}% 24
-\BOOKMARK [2][-]{subsection.10.1}{}{section.10}% 25
-\BOOKMARK [2][-]{subsection.10.2}{}{section.10}% 26
-\BOOKMARK [1][-]{section.11}{End Device Specifications}{}% 27
-\BOOKMARK [1][-]{section.12}{Creating the Clone Server}{}% 28
-\BOOKMARK [2][-]{subsection.12.1}{}{section.12}% 29
-\BOOKMARK [2][-]{subsection.12.2}{}{section.12}% 30
-\BOOKMARK [2][-]{subsection.12.3}{}{section.12}% 31
-\BOOKMARK [2][-]{subsection.12.4}{}{section.12}% 32
-\BOOKMARK [1][-]{section.13}{Preparing a system for Sysprep}{}% 33
-\BOOKMARK [2][-]{subsection.13.1}{}{section.13}% 34
-\BOOKMARK [2][-]{subsection.13.2}{}{section.13}% 35
-\BOOKMARK [1][-]{section.14}{Multicast Cloning}{}% 36
-\BOOKMARK [1][-]{section.15}{Backup Domain Controller}{}% 37
-\BOOKMARK [1][-]{section.16}{Setting up Syslog}{}% 38
-\BOOKMARK [2][-]{subsection.16.1}{}{section.16}% 39
-\BOOKMARK [1][-]{section.17}{Setting up NTP}{}% 40
-\BOOKMARK [1][-]{section.18}{ACL's}{}% 41
-\BOOKMARK [1][-]{section.19}{VLANS}{}% 42
+\BOOKMARK [2][-]{subsection.7.1}{Labelling Ports}{section.7}% 13
+\BOOKMARK [2][-]{subsection.7.2}{Clock Rate}{section.7}% 14
+\BOOKMARK [2][-]{subsection.7.3}{Interfaces}{section.7}% 15
+\BOOKMARK [1][-]{section.8}{Test and Troubleshoot Network Connectivity}{}% 16
+\BOOKMARK [1][-]{section.9}{Setting up DHCP}{}% 17
+\BOOKMARK [2][-]{subsection.9.1}{Installing DHCP}{section.9}% 18
+\BOOKMARK [2][-]{subsection.9.2}{Configuring DHCP}{section.9}% 19
+\BOOKMARK [1][-]{section.10}{Setting up the PDC and DNS}{}% 20
+\BOOKMARK [2][-]{subsection.10.1}{Primary Domain Controller}{section.10}% 21
+\BOOKMARK [2][-]{subsection.10.2}{Domain Name System}{section.10}% 22
+\BOOKMARK [1][-]{section.11}{End Device Specifications}{}% 23
+\BOOKMARK [1][-]{section.12}{Creating the Clone Server}{}% 24
+\BOOKMARK [2][-]{subsection.12.1}{Installing Disk-less Remote Boot For Linux}{section.12}% 25
+\BOOKMARK [2][-]{subsection.12.2}{Configuring DRBL}{section.12}% 26
+\BOOKMARK [1][-]{section.13}{Preparing a system for Sysprep}{}% 27
+\BOOKMARK [2][-]{subsection.13.1}{Configuring The Answer File}{section.13}% 28
+\BOOKMARK [1][-]{section.14}{Multicast Cloning}{}% 29
+\BOOKMARK [1][-]{section.15}{Backup Domain Controller}{}% 30
+\BOOKMARK [1][-]{section.16}{Setting up Syslog}{}% 31
+\BOOKMARK [2][-]{subsection.16.1}{Installing A Syslog Server}{section.16}% 32
+\BOOKMARK [1][-]{section.17}{Network Time Protocol}{}% 33
+\BOOKMARK [1][-]{section.18}{Access Control Lists}{}% 34
+\BOOKMARK [1][-]{section.19}{Virtual Local Area Network}{}% 35

@@ -63,39 +63,38 @@
 \begin{figure}[h]
 		\includegraphics[width=1\linewidth]{"staff passwords"}
 \end{figure}
-\subsection{}
+\subsection{Hostnames}
 	Before you begin setting up and configuring a router or switch you want to set the hostnames. You set these hostnames so you can identify which device your connected to. 
 \begin{figure}[h]
 		\centering
 		\includegraphics[width=0.5\linewidth]{hostname}
 \end{figure}
-\subsection{}
+\subsection{Password Encryption}
 	When you first begin setting up a router or switch you want to make sure that the switch is password protected. By doing this you will not allow anyone access without a password. Using the "service password-encryption" command will take that password and encrypt it so that it will not be shown in plain text.
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=0.6\linewidth]{"staff password encryption"}
 \end{figure}
 
-\subsection{}
+\subsection{Telnet}
 	Telnet is a simple, text-based network protocol that is used for accessing remote networks over TCP/IP networks. Telnet was created in 1969 and has been replaced by SSH because Telnet poses security issues.
 \begin{figure}[h]
 		\centering
 		\includegraphics[width=0.5\linewidth]{"telnet access"}
 \end{figure}
 \newpage
-\subsection{}
+\subsection{Message Of The Day}
 	The banner Message of The Day(MOTD) is a message that is presented to someone who is access the router or the switch. Most network administrators use it to display legal notices regarding access to the device.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{motd}
 \end{figure}
-\subsection{}
+\subsection{Default Route}
 The default route is a setting on a device that defines the packet forwarding rule to use when no specific route can be determined for a given Internet Protocol(IP) destination address.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{"default route"}
 \end{figure}
 \newpage
 \section{Configure Device Ports}
-\subsection{}
 An Internet Protocol (IP) address is a unique identifier that is assign to specific ports to allow communication between devices on a network. An IP address provides an identity to a networked device. There are 2 types of IP addresses IPv4 and IPv6, IPv6 is the successor to IPv4 and is less likely to run out of IP addresses. In order to use IPv6 addresses you have to enable unicast routing.
 \begin{figure}[h]
 	\centering
@@ -105,29 +104,25 @@ An Internet Protocol (IP) address is a unique identifier that is assign to speci
 	\centering
 	\includegraphics[width=0.5\linewidth]{"enable ipv6 core1"}
 \end{figure}
-\subsection{}
+\subsection{Labelling Ports}
 When a network administrator configures a description on a port it gives that interface a label of what the interfaces purpose is and what it is connected to.
 \begin{figure}[h]
 	\includegraphics[width=1\linewidth]{description}
 \end{figure}
-\begin{figure}[h]
-	\includegraphics[width=1\linewidth]{"show description"}
-\end{figure}
-\subsection{}
+\newpage
+\subsection{Clock Rate}
 The clock rate is important for routers because it defines which side of the WAN link is the DCE and what side is DTE. The clock rate sets the speed at which data is transferred over the network. If your clock rate is low then your bandwidth will be low.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{"clock rate"}
 \end{figure}
-\newpage
-\subsection{}
+\subsection{Interfaces}
 To activate an interface you can specify which interface or ranges of interfaces that you want to activate. If an interface is not activated then it will not be able to transfer data through it until the \textbf{no shutdown} command has been issued.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{"activate interfaces"}
 \end{figure}
 \section{Test and Troubleshoot Network Connectivity}
-\subsection{}
 Troubleshooting commands:
 \newline
 1: show running-config (Displays the entire routers configuration)
@@ -156,15 +151,14 @@ To install DHCP run the following command.
 	\centering
 	\includegraphics[width=1\linewidth]{dhcp-install}
 \end{figure}
-\subsection{}
-Change the directory to /etc/dhcp
+\subsection{Configuring DHCP}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{dhcp-config1}
 \end{figure}
-\newpage
-\subsection{}
+Change the directory to /etc/dhcp\newline\newline
 Using a text editor such as vi, vim, or nano you will need to edit the file: dhcpd.conf. Here you want to set up the subnets so that the hosts connected to those specific networks get an ip address in those ranges. For each zones in your network you'll need to specify the range of IP addresses, the subnet mask, default gateway and DNS servers.
+\newpage
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{dhcp-config2}
@@ -175,7 +169,6 @@ Using a text editor such as vi, vim, or nano you will need to edit the file: dhc
 	\includegraphics[width=1\linewidth]{dhcp-config3}
 \end{figure}
 \newpage
-\subsection{}
 Running the following command restarts the DHCP server with the new settings in the configuration file.
 \begin{figure}[h]
 	\centering
@@ -185,7 +178,7 @@ Running the following command restarts the DHCP server with the new settings in 
 	\label{sec:10.1}
 The Primary Domain Controller (PDC) is the main service which controls all aspects of the domain including users, groups, and different services that the network may need.
 The Domain Name System (DNS) is a central part of the Internet, it provides a way to match the name of a website to its IP address.
-\subsection{}
+\subsection{Primary Domain Controller}
 First step you need to do is install \textbf{Windows Server 2012} or equivalent.
 Then follow these steps:
 \begin{enumerate}
@@ -207,7 +200,7 @@ Then follow these steps:
 \item Click next until you reach \textbf{Prerequisites Check}.
 \item Verify all prerequisites have been met and click Install.
 \end{enumerate}
-\subsection{}
+\subsection{Domain Name System}
 To set up DNS follow these steps:
 \begin{enumerate}
 \item In Server Manager Click \textbf{Tools} and then click \textbf{DNS}.
@@ -237,7 +230,7 @@ Shown below is one of the machines we have documented.
 \newpage
 \section{Creating the Clone Server}
 The clone server is used to copy an existing machine and push it out to other machines. The purpose of cloning is to make it easier to produce copies of existing infrastructure. 
-\subsection{}
+\subsection{Installing Disk-less Remote Boot For Linux}
 Make a directory called images with the command \textbf{sudo mkdir /images} or another meaningful name to store your clone images. Next you want to give the directory root permissions using the \textbf{chown root:root /images} and \textbf{chmod 770 /images} to set permissions of read/write/execute to the user, group but not anyone else.\newline \newline
 To add the key so that the clone server can obtain all of the required packages use:\newline\textbf{wget -q http://drbl.org/GPG-KEY-DRBL -0- | sudo apt-key-add -}
 \newline
@@ -250,7 +243,7 @@ You will need to add \textbf{deb http://free.nchc.org.tx/drbl-core drbl stable} 
 	\includegraphics[width=1\linewidth]{"Screenshots-clone-server/Screenshot from 2018-03-10 13-33-36"}
 \end{figure}
 \newpage
-\subsection{}
+\subsection{Configuring DRBL}
 Update your system with \textbf{apt-get update}.
 To install the clone server type \textbf{apt-get install drbl} after it is installed type in the command \textbf{apt-get install nmap} this ensures that DHCP can be run on the server. Once this is installed type in \textbf{drblpush -i}, the -i means it will run the program in interactive mode.\newline Any entry in this setup process in between [ ] is a default value. Pressing enter will use the value between these brackets, or enter your own to customize it to your network.
 \begin{figure}[h]
@@ -273,10 +266,8 @@ When you are asked which directory to store the cloned images on, use the folder
 \end{figure} \newline
 For a basic network setup you can leave the following settings as default, or else enter specific requirements tailored to your network.
 \newpage
-\subsection{}
 The next step you'll need to connect the server to the Internet then run \textbf{drblsrv -i}. Once it begins it will ask for values, leave them as their default values and select the kernel from this server. Once this is done you are ready for the next step.
-\subsection{}
-\label{sec:12.4}
+\label{sec:12.2}
 After running the drblsrv we are ready to start the clone server. To start the clone server type in \textbf{dcs}. You should see the screen shown below.
 \newline \newline
 Choose: \textbf{All Select all the clients}
@@ -302,14 +293,15 @@ Once you have completed the previous steps start your client machine with Networ
 \newpage
 \section{Preparing a system for Sysprep}
 Before you can begin preparing sysprep you need to install Windows ADK. \href{https://go.microsoft.com/fwlink/p/?linkid=859206}{Download Here}
-\subsection{}
-Mount or slap in a Windows 10 installation disc and copy the install.wim file in the sources folder to your desktop.
+\newline
+
+Mount a Windows 10 installation disc and copy the install.wim file in the sources folder to your desktop.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{"sysprep/3-23-2018 13-23-45"}
 \end{figure}
 \newpage
-\subsection{}
+\subsection{Configuring The Answer File}
 Once installed open 'Windows System Image Manager'
 \begin{figure}[h]
 	\includegraphics[width=.5\linewidth]{"sysprep/3-23-2018 13-21-27"}
@@ -367,7 +359,7 @@ Next on the client machine run the CLI as an Administrator, doing so will put yo
 \newline
 \textbf{sysprep.exe /generalize /oobe /unattend:Unattend.xml /shutdown}
 \newline
-Once the computer has shutdown repeat the steps in \hyperref[sec:12.4]{12.4} using a different image name in step 5 as to not overwrite your previous image.
+Once the computer has shutdown repeat the steps in \hyperref[sec:12.2]{12.2} using a different image name in step 5 as to not overwrite your previous image.
 \newpage
 \section{Multicast Cloning}
 Multicast cloning gives you the ability to deploy an image from the server machine to all connected clients on the network. Using multicast cloning will cut down bandwidth usage on the network by sending out one packet that will replicate itself to clients on the specified list of MAC addresses.
@@ -416,11 +408,11 @@ Enter the Administrators credentials from the PDC in order for you to add the ma
 \end{enumerate}
 \section{Setting up Syslog}
 Syslog receives logs from remotely connected devices in a network. With these logs you are able to troubleshoot and observe security information. These logs allow administrators to maintain the network properly by pinpointing flaws within the network.
-\subsection{}
+\subsection{Installing A Syslog Server}
 First you will have to install the Syslog server, we used Kiwi found at \href{https://www.kiwisyslog.com/free-tools/kiwi-free-syslog-server}{This website}
 After downloading and installing Kiwi server \textbf{as a service}, on one your machines run the command \textbf{logging host (IP address of the server machine) eg. logging host 172.16.6.10} onto each of your routers. \textbf{Note:} Kiwi Free version only allows up to 5 connected devices.
 \newpage
-\section{Setting up NTP}
+\section{Network Time Protocol}
 Network Time protocol (NTP) is used to sync your internal network time to a single time server from the internet. The Canadian time servers are: 
 \begin{enumerate}
 	\item server 0.ca.pool.ntp.org
@@ -429,8 +421,9 @@ Network Time protocol (NTP) is used to sync your internal network time to a sing
 	\item server 3.ca.pool.ntp.org
 \end{enumerate}
 To setup the NTP connections enter in the following command on your backbone routers \textbf{ntp server (IP address/domain name) eg. ntp server 0.ca.pool.ntp.org}
-\section{ACL's}
-Access control lists (ACLs) allow an administrator to control the flow of traffic within the network. With ACLs you can control the direction the traffic flows and restrict access by protocol, IP address, network. There are two types of ACLs; standard and extended. Standard ACLs are located near the destination while Extended ACL's are located near the source. An Extended ACL is made up of one or more access control entries (ACEs). \textbf{All ACL have an explicit deny all applied to the end}
+\section{Access Control Lists}
+Access control lists (ACLs) allow an administrator to control the flow of traffic within the network. With ACLs you can control the direction the traffic flows and restrict access by protocol, IP address, network. There are two types of ACLs; standard and extended. Standard ACLs are located near the destination while Extended ACLs are located near the source. ACLs are made up of one or more access control entries (ACEs). \textbf{All ACL have an explicit deny all applied to the end}
+\newline
 
 Standard ACL syntax:
 \begin{enumerate}
@@ -448,7 +441,7 @@ Extended ACL syntax:
 	\item int g0/0
 	\item ip access-group (100-199, 2000-2699) (IN or OUT)
 \end{enumerate}
-\section{VLANS}
+\section{Virtual Local Area Network}
 VLAN is a Virtual LAN that lets administrator restrict access to different areas of a network. Using VLANs administrator are able to enforce security policies, reduce the broadcast domains and traffic. VLANS are based on logical connection instead of physical connections.
 
 \end{document}
